@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./img/drum.jpg);
+}
+.key{
+  margin: 20px;
+  padding: 20px;
+  border: 0px solid white;
+  color: black;
+  transition: all 0.3s;
+  text-align: center;
+  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.4);
+}
+
+.playing {
+  transform: scale(1.4);
+  border-color: #930ab6;
+  box-shadow: 0 0 1rem #930ab6;
+}
+
+span{
+  font-size: 1.5rem;
+}
+
+kbd{
+  display: block;
+  font-size: 8rem;
+  cursor: pointer;
+}
+
